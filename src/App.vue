@@ -17,7 +17,6 @@
 </template>
 
 <script>
-// import phone from './assets/images/phone.jpg';
 
 export default {
   data () {
