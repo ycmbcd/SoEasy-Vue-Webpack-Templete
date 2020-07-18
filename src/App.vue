@@ -10,8 +10,9 @@
     <img src="./assets/images/phone.jpg" alt="phone">
     <h4>手机图片（小于10kb）编译为base64地址：</h4>
     <textarea>data:image/jpeg;base64,/9j/4AAQSkZJRgABAQACzwLPAAD/4QCMRXhpZgAATU0AKgAAAAgABQESAAMAAAABAAEAAAEaAAUAAAABAAAASgEbAAUAAAABAAAAUgEoAAMAAAABAAIAAIdpAAQAAAABAAAAWgAAAAAAAIxlAAAAMgAAjGUAAAAyAAOgAQADAAAAAQABAACgAgAEAAAAAQAAAGSgAwAEAAAAAQAAAGQAAAAA/+0AOFBob3Rvc2hvcCAzLjAAOEJJTQQEAAAAAAAAOEJJTQQlAAAAAAAQ1B2M2Y8AsgTpgAmY7PhCfv/AABEIAGQAZAMBIgACEQEDEQH...</textarea>
-    <h4>ES6编译为</h4>
-    <h2>{{es6}}</h2>
+    <h4>ES6语法箭头函数</h4>
+    <h3> (a, b) => a + b 编译为</h3>
+    <h3>{{es6}}</h3>
   </div>
 </template>
 
