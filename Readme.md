@@ -52,7 +52,7 @@ yarn run build
 > 目录说明
 
 ```bash
-SoEasy-Webpack4.0-Templete
+SoEasy-Vue-Webpack-Templete
 ├─ .babelrc                     #babel配置文件
 ├─ dist                         #构建目录
 │  ├─ favicon.ico               #构建后的图标文件
