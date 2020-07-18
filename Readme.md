@@ -1,4 +1,4 @@
-# SoEasy-Webpack4.0-Templete
+# SoEasy-Vue-Webpack-Templete
 
 # 使用
 
@@ -43,13 +43,11 @@ yarn run build
 
 # 预览
 
-[Demo](https://ycmbcd.github.io/SoEasy-Webpack4.0-Templete/dist/)
+[Demo](https://ycmbcd.github.io/SoEasy-Vue-Webpack-Templete/dist/)
 
 # 说明
 
-v2.0版本之后，本项目暂停更新。侧重基于Vue模板开发，如果您是Vue.js技术栈，请转移至 SoEasy-Vue-Webpack-Templete 项目。
-
-一款开箱即用的基于 `Webpack 4.0` 搭建的 `WebApp` 模板。
+一款开箱即用的基于 `Vue.js` + `Webpack` 搭建的 WebApp 模板。
 
 > 目录说明
 
@@ -72,14 +70,10 @@ SoEasy-Webpack4.0-Templete
 ├─ node_modules                 #包目录
 ├─ package.json                 #项目文件
 ├─ src                          #开发源码目录
-│  ├─ add.js                    #Demo测试文件
-│  └─ stylus                    #Stylus目录
-│     └─ custom.styl            #Demo测试styl文件
 │  ├─ assets                    #开发资源目录
 │  │  └─ images                 #开发图片目录
 │  │     ├─ panda.png           #Demo测试图片
 │  │     └─ phone.jpg           #Demo测试图片
-│  ├─ main.css                  #Demo测试样式
 │  └─ main.js                   #入口文件
 ├─ webpack.common.js            #Webpack基础配置文件
 ├─ webpack.dev.js               #Webpack开发配置文件
@@ -111,7 +105,6 @@ SoEasy-Webpack4.0-Templete
 
 - 支持 ES6 编译 ES5。
 - Js 文件压缩，sourse-map 分配。
-- ~~支持 Sass/Scss 编译。~~（node-sass 加载慢顾改用Stylus。如需Sass请使用 `v2.0` 之前的版本。）
 - 支持 Stylus 编译。
 - CSS 样式分离、压缩。
 - CSS3 前缀自动补全。
