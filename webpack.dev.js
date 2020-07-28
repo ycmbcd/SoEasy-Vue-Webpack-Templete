@@ -10,7 +10,14 @@ module.exports = merge(common, {
     open: true,
     hot: true,
     inline: true,
-    quiet: false
+    quiet: false,
+    // proxy: {
+    //   '/api': {
+    //     target: 'http://xxx.com',
+    //     changeOrigin: true,
+    //       pathRewrite: { '^/api': '/api' }
+    //   }
+    // },
   },
   module: {
     rules: [
