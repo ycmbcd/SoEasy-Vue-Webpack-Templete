@@ -26,7 +26,7 @@ module.exports = merge(common, {
       },
       {
         test: /\.(eot|svg|ttf|woff|woff2)(\?\S*)?$/,
-        loader: 'file-loader',
+        loader: 'url-loader',
         options: {
           esModule: false,
           name: './static/fonts/[name]_[hash:6].[ext]',
